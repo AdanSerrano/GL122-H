@@ -1,2 +1,5 @@
 # TAREA 2 
-En esta sección tenemos las carpetas que utilice para la creación de la pagina de la tarea No2
+## INTEGRANTES 
+1. Adán Serrano 
+2. Ashley Mckenzie
+3. José Delgado
