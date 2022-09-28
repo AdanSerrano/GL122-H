@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+
+.logo-items{
+    background-color: rgb(8, 9, 9);
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
