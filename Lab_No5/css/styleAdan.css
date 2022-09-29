@@ -15,18 +15,42 @@ h1, h2, h3, h4, h5, h6, legend{
 
 header{
     background-color: darkgray;
-    
+    padding: 2%;
 }
 header a{
     display: flex;
     justify-content: flex-start;
     margin-left: 8vh;
-    padding: 2%;
-    
+    text-decoration: none;
+    color: white;
+}
+
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-star;
+}
+
+.nav-principal-C{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-left: 60%;
+}
+
+.nav-principal-C a{
+    padding: 14px;
+}
+
+.nav-principal-C a:hover{
+    padding: 14px;
+    background-color: black;
+    border-radius: 20px;
 }
 
 .espacio, .espacio img{
-    margin: 10px;
+    padding: 20px;
 }
 
 .imagen-principal{
