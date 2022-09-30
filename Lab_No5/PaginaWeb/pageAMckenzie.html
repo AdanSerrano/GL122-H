@@ -5,219 +5,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
     <title>LABORATORIO 4</title>
+    <link rel="stylesheet" href="../css/styleAshley.css">
 </head>
-<body bgcolor="pink">
-    <div>
-        <a href="../home.html/main.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-current-location" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="3" />
-            <circle cx="12" cy="12" r="8" />
-            <line x1="12" y1="2" x2="12" y2="4" />
-            <line x1="12" y1="20" x2="12" y2="22" />
-            <line x1="20" y1="12" x2="22" y2="12" />
-            <line x1="2" y1="12" x2="4" y2="12" />
-          </svg></a>
-          <h6>INICIO</h6>
-    </div>
-        <section>
-            <center>
-                <h1>Curriculum</h1>
-                <h2>Ashley Mc kenzie</h2>
-                <img src="../img/ashley.jpg" width="220" height="200" alt="">
-                
-            </center>
+<body bgcolor="palevioletred">
+    <header>
+        <div class="principal">
+            <a href="../home.html/main.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+            </a>
+            <div class="principal-2">
+                <a href="../PaginaWeb/pageASerrano.html">
+                    ADÁN SERRANO
+                </a>
+                <a href="../PaginaWeb/pageJDelgado.html">
+                    JOSE DELGADO
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="espacio">
+        <div class="imagen-Foto">
+            <img src="../img/ashley.jpg" width="270" height="260" alt="">
+        </div>
+        <h2  class="imagen-principal">CV AMckenzie</h2>
         <div>
-            <form action="../PaginaWeb/pageAMckenzie.html">
-                <ul>
-                    <center>
-                        <legend>
-                            INTRODUCIR SUS DATOS
-                        </legend>
-                    </center>
-                    <br>
-                    <font color="white">
-                        <fieldset>
-                            <section>
-                                <center>
-                                    <h4>
-                                        INFORMACION PERSONAL
-                                    </h4>
-                                </center>
-                                <div>
-                                    <label>
-                                        NOMBRE APELLIDO&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="text"   placeholder="obligatorio">
-                                </div>
-                                <div>
-                                    <label>
-                                    TELEFONO&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="tel"   placeholder="Telefono">
-                                </div>
-                                <div>
-                                    <label>
-                                        EMAIL&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="email"   placeholder="Email">
-                                </div>
-                                <div>
-                                    <label for="">
-                                        EDAD&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="number" placeholder="Edad Numero">
-                                </div>
-                                <div>
-                                    <label for="">
-                                        FECHA DE NACIMIENTO&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="date" placeholder="Edad Numero">
-                                </div>
-                                <div>
-                                    <label for="">
-                                        DIRECCIÓN&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="text number" placeholder="Dirección">
-                                </div>
-                                <div>
-                                    <label for="">
-                                        ESTADO CIVIL&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <form action="">
-                                        <select name="id_cursos">
-                                            <option value="INICIO">ESTADO CIVIL</option>
-                                            <option value="CURSO 1">SOLTERO/A</option>
-                                            <option value="CURSO 2">CASADO/A</option>
-                                            <option value="CURSO 3">VIUDO/A</option>
-                                            <option value="CURSO 4">UNIDO/A</option>
-                                        </select>
-                                    </form>
-                                </div>
-                                <div>
-                                    <label for="">
-                                        DEPENDIENTES&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <input type="text number" placeholder="NUM DE DEPENDIENTES">
-                                </div>
-                                <br>
-                                <div>
-                                    <label>
-                                        MENSAJE&nbsp; &nbsp; &nbsp;
-                                    </label>
-                                    <textarea name="Mensaje" id="" rows="2" placeholder="opcional"></textarea>
-                                </div>
-                            </section>
-                            <br>
-                            <hr>
-                            <section>
-                                <div>
-                                    <center>
-                                        <h4>
-                                            EDUCACIÓN
-                                        </h4>
-                                    </center>
-                                    <div>
-                                        <label for="EDUCACIÓN">
-                                            EDUCACION PRIMARIA&nbsp; &nbsp; &nbsp;
-                                            <input type="text" placeholder="INSTITUTO">
-                                        </label>
-                                    </div>
-                                    <div>
-                                        <label for="EDUCACIÓN">
-                                            EDUCACION SECUNDARIA&nbsp; &nbsp; &nbsp;
-                                            <input type="text" placeholder="INSTITUTO">
-                                            <input type="text" placeholder="Bachillerato">
-                                        </label>
-                                    </div>
-                                    <div>
-                                        <label for="EDUCACIÓN">
-                                            EDUCACION UNIVERSITARIA&nbsp; &nbsp; &nbsp;
-                                            <input type="text" placeholder="INS.&nbsp;UNIVERSITARIO">
-                                            <input type="text" placeholder="Carrera">
-                                        </label>
-                                    </div>
-                                </div>
-                            </section>
-                            <br>
-                            <hr>
-                            <section>
-                                <div>
-                                    <center>
-                                        <h4>
-                                            CONOCIMIENTOS
-                                        </h4>
-                                    </center>
-                                    <div>
-                                        <label>
-                                            MIS CONOCIMIENTOS&nbsp; &nbsp; &nbsp;
-                                        </label>
-                                        <textarea name="Conocimientos" id="" rows="3" placeholder="CONOCIMIENTOS"></textarea>
-                                    </div>
-                                    <br>
-                                    <div>
-                                        <label>
-                                            QUE ME HACE UNICO&nbsp; &nbsp; &nbsp;
-                                        </label>
-                                        <textarea name="UNICO" id="" rows="3" placeholder="UNICO"></textarea>
-                                    </div>
-                            </section>
-                            <br>
-                            <hr>
-                            <section>
-                                <div>
-                                    <center>
-                                        <h4>
-                                            REEFERENCIAS
-                                        </h4>
-                                    </center>
-                                    <div>
-                                        <label for="REEFERENCIAS">
-                                            PRIMERA REFERENCIA&nbsp; &nbsp; &nbsp;
-                                            <input type="text" placeholder="NOMBRE">
-                                            <input type="text number" placeholder="DIRECCIÓN">
-                                            <input type="text" placeholder="PUESTO">
-                                            <input type="number" placeholder="NUMERO CELL">
-                                        </label>
-                                    </div>
-                                    <div>
-                                        <label for="REEFERENCIAS">
-                                            SEGUNDA REFERENCIA&nbsp;&nbsp; &nbsp;
-                                            <input type="text" placeholder="NOMBRE">
-                                            <input type="text number" placeholder="DIRECCIÓN">
-                                            <input type="text" placeholder="PUESTO">
-                                            <input type="number" placeholder="NUMERO CELL">
-                                        </label>
-                                        </label>
-                                    </div>
-                                    <div>
-                                        <label for="REEFERENCIAS">
-                                            TERCERA REFERENCIA&nbsp; &nbsp; &nbsp;
-                                            <input type="text" placeholder="NOMBRE">
-                                            <input type="text number" placeholder="DIRECCIÓN">
-                                            <input type="text" placeholder="PUESTO">
-                                            <input type="number" placeholder="NUMERO CELL">
-                                        </label>
-                                        </label>
-                                    </div>
-                                </div>
-                            </section>
-                            <br>
-                            <input type="submit" value="Enviar">
-                        </fieldset>
-                    </font>
+        <form action="../PaginaWeb/pageAMckenzie.html" enctype="multipart/form-data" method="get">
+        <ul class="titulo-IntroducirDatos">
+            <legend>
+                INTRODUCIR SUS DATOS
+            </legend>
+    <fieldset>
+    <section>
+    <center>
+        <h4>
+            INFORMACION PERSONAL
+        </h4>
+    </center>
+    <div>
+        <label>
+            NOMBRE APELLIDO&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="text"   placeholder="Nombre y Apellido">
+    </div>
+    <div>
+        <label>
+        TELEFONO&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="tel"   placeholder="Telefono">
+    </div>
+    <div>
+        <label>
+            EMAIL&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="email"   placeholder="Email">
+    </div>
+    <div>
+        <label for="">
+            EDAD&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="number" placeholder="Edad Numero">
+    </div>
+    <div>
+        <label for="">
+            FECHA DE NACIMIENTO&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="date" placeholder="Edad Numero">
+    </div>
+    <div>
+        <label for="">
+            DIRECCIÓN&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="text number" placeholder="Dirección">
+    </div>
+    <div>
+        <label for="">
+            ESTADO CIVIL&nbsp; &nbsp; &nbsp;
+        </label>
+        <form action="">
+            <select name="id_cursos">
+                <option value="INICIO">ESTADO CIVIL</option>
+                <option value="CURSO 1">SOLTERO/A</option>
+                <option value="CURSO 2">CASADO/A</option>
+                <option value="CURSO 3">VIUDO/A</option>
+                <option value="CURSO 4">UNIDO/A</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <label for="">
+            DEPENDIENTES&nbsp; &nbsp; &nbsp;
+        </label>
+        <input type="text number" placeholder="NUM DE DEPENDIENTES">
+    </div>
+    <br>
+    <div>
+        <label>
+            MENSAJE&nbsp; &nbsp; &nbsp;
+        </label>
+        <textarea name="Mensaje" id="" rows="2" placeholder="opcional"></textarea>
+    </div>
+    </section>
+    <br>
+    <hr>
+    <section>
+    <div>
+        <center>
+            <h4>
+                EDUCACIÓN
+            </h4>
+        </center>
+        <div>
+            <label for="EDUCACIÓN">
+                EDUCACION PRIMARIA&nbsp; &nbsp; &nbsp;
+                <input type="text" placeholder="INSTITUTO">
+            </label>
+        </div>
+        <div>
+            <label for="EDUCACIÓN">
+                EDUCACION SECUNDARIA&nbsp; &nbsp; &nbsp;
+                <input type="text" placeholder="INSTITUTO">
+                <input type="text" placeholder="Bachillerato">
+            </label>
+        </div>
+        <div>
+            <label for="EDUCACIÓN">
+                EDUCACION UNIVERSITARIA&nbsp; &nbsp; &nbsp;
+                <input type="text" placeholder="INS.&nbsp;UNIVERSITARIO">
+                <input type="text" placeholder="Carrera">
+            </label>
+        </div>
+    </div>
+    </section>
+    <br>
+    <hr>
+    <section>
+    <div>
+        <center>
+            <h4>
+                CONOCIMIENTOS
+            </h4>
+        </center>
+        <div>
+            <label>
+                MIS CONOCIMIENTOS&nbsp; &nbsp; &nbsp;
+            </label>
+            <textarea name="Conocimientos" id="" rows="3" placeholder="CONOCIMIENTOS"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>
+                QUE ME HACE UNICO&nbsp; &nbsp; &nbsp;
+            </label>
+            <textarea name="UNICO" id="" rows="3" placeholder="UNICO"></textarea>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section>
+    <div>
+        <center>
+            <h4>
+                REEFERENCIAS
+            </h4>
+        </center>
+        <div>
+            <label for="REEFERENCIAS">
+                PRIMERA REFERENCIA&nbsp; &nbsp; &nbsp;
+                <input type="text" placeholder="NOMBRE">
+                <input type="text number" placeholder="DIRECCIÓN">
+                <input type="text" placeholder="PUESTO">
+                <input type="number" placeholder="NUMERO CELL">
+            </label>
+        </div>
+        <div>
+            <label for="REEFERENCIAS">
+                SEGUNDA REFERENCIA&nbsp;&nbsp; &nbsp;
+                <input type="text" placeholder="NOMBRE">
+                <input type="text number" placeholder="DIRECCIÓN">
+                <input type="text" placeholder="PUESTO">
+                <input type="number" placeholder="NUMERO CELL">
+            </label>
+            </label>
+        </div>
+        <div>
+            <label for="REEFERENCIAS">
+                TERCERA REFERENCIA&nbsp; &nbsp; &nbsp;
+                <input type="text" placeholder="NOMBRE">
+                <input type="text number" placeholder="DIRECCIÓN">
+                <input type="text" placeholder="PUESTO">
+                <input type="number" placeholder="NUMERO CELL">
+            </label>
+            </label>
+        </div>
+    </div>
+    </section>
+                        <br>
+                        <input type="submit" value="Enviar">
+    </fieldset>
                 </ul>
             </form> 
         </div>
-    </section>
-    <footer>
-        <center>
-            <a href="http://instagram.com/asshleyb19?utm_source=qr"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="4" y="4" width="16" height="16" rx="4" />
-                <circle cx="12" cy="12" r="3" />
-                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-            </svg></a>
-        </center>
-    </footer>  
+    </section>  
 </body>
 </html>

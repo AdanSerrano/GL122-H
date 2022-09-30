@@ -1,0 +1,77 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    color: rgb(244, 246, 247);
+    margin: 0;
+    text-align: start;
+}
+
+h2, h4, legend{
+    font-size: 135%;
+}
+
+header{
+    background-color: black;
+}
+
+header a{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.principal-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-left: 72%;
+}
+
+.principal-2 a{
+    padding: 15px;
+    color: white;
+}
+
+.principal-2 a:hover{
+    padding: 15px;
+    background-color: maroon;
+    border-radius: 25px;
+}
+
+.espacio, espacio img{
+    padding: 25px;
+}
+
+.imagen-Foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.titulo-IntroducirDatos{
+    padding-bottom: 6%;
+    color: black;
+}
+
+.espacio, h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
