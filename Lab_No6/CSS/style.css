@@ -106,19 +106,35 @@ header{
     border-radius: 20px;
 }
 
+#Nuestras-Clases .titulo button{
+    background-position: center center;
+    background-size: cover;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+#Nuestras-Clases .titulo button:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border-color: red;
+}
+
+
 .cartas{
     width: 150px;
     height: 150px;
     box-shadow: -14px 9px 26px -4px rgba(214,118,118,0.86);
--webkit-box-shadow: -14px 9px 26px -4px rgba(214,118,118,0.86);
--moz-box-shadow: -14px 9px 26px -4px rgba(214,118,118,0.86);
-border-radius: 20px;
+    -webkit-box-shadow: -14px 9px 26px -4px rgba(214,118,118,0.86);
+    -moz-box-shadow: -14px 9px 26px -4px rgba(214,118,118,0.86);
+    border-radius: 20px;
 }
 
 .cartas:first-child{
     background-image:url(../IMG/desarrollo-soft.jpg);
-    background-position: center;
-    border-radius: 30px;
 }
 .cartas:nth-child(2){
     background-image:url(../IMG/ingenieria-soft.jpg);
