@@ -68,8 +68,12 @@ header{
     text-align: center;
 }
 
+#Nuestras-Clases{
+    margin: 16px;
+}
+
 #Nuestras-Clases .container{
-    padding: 100px 0px;
+    padding: 10px 0px;
 }
 
 #Nuestras-Clases .container h2{
